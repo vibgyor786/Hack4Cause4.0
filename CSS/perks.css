@@ -1,0 +1,160 @@
+
+
+/* Perks Section */
+.perkCards {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.perkCard {
+    background-color: var(--white);
+    margin: 0 100px;
+    padding: 20px 20px;
+    display: flex;
+    width: 20%;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.perkDesc {
+    font-size: 1.15rem !important;
+    margin-left: 4%;
+    margin: auto;
+    margin-top: -47px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.perkCard i {
+    font-size: 4em;
+    padding: 20px;
+}
+
+/* /* new perks  * */
+
+.container2 {
+    position: relative;
+    height: max-content;
+    width: 100%;
+    top: 60px;
+    /* left: calc(50% - 300px); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardperks {
+    display: flex;
+    height: 284px;
+    width: 420px;
+    margin: 42px 25px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    box-shadow: 0rem 0 0.5rem #02f9e9;
+    /* margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    /* left: 0px; */
+    
+    align-items: center;
+    justify-content: space-evenly;
+    /* animation: animate1 2s linear infinite; */
+}
+.cardperks h4{
+    text-align: center;
+}
+
+.cardperks:not(:first-child) {
+    /* margin-left: -50px; */
+}
+
+.cardperks:hover {
+    transform: translateY(-25px);
+    transition: 0.4s ease-out;
+}
+
+.cardperks:hover ~ .card {
+    position: relative;
+    /* left: 50px; */
+    transition: 0.4s ease-out;
+}
+
+.title {
+    color: white;
+    font-weight: 300;
+    position: absolute; 
+    text-align: center;
+    top: 25px;
+    font-size: 1.5rem;
+}
+
+.bar {
+    position: absolute;
+    top: 77px;
+    /* left: 15px; */
+    height: 5px;
+    width: 95%;
+    align-items: center;
+    padding-left: 0px;
+}
+
+.emptybar {
+    background-color: #2e3033;
+    width: 100%;
+    height: 100%;
+}
+
+.filledbar {
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    width: 0px;
+    height: 100%;
+    background: #02f9e9;
+    background: linear-gradient(90deg, #ec1f57 0%, #ec1f57 65%, #02f9e9 100%);
+    transition: 0.6s ease-out;
+}
+
+.cardperks:hover .filledbar {
+    width: 100%;
+    transition: 0.4s ease-out;
+}
+
+.circle {
+    position: absolute;
+    top: 150px;
+    
+    margin: 0 0.5em;
+    color: #989c9e;
+    /* left: calc(50% - 60px); */
+    /* height:100px ;
+  width:100px ; */
+}
+.circle svg {
+    height: 112px;
+    width: 117px;
+    position: relative;
+    left: -5%;
+}
+.stroke {
+    stroke: white;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 360;
+    transition: 0.6s ease-out;
+}
+
+svg {
+    fill: #17141d;
+    stroke-width: 2px;
+}
+
+.card:hover .stroke {
+    stroke-dashoffset: 100;
+    transition: 0.6s ease-out;
+}
+
+/* new perks end */

@@ -1,0 +1,38 @@
+
+
+/*! Brochure */
+#call-to-action {
+    overflow: hidden;
+    background: #1c1c1c;
+    background-size: cover;
+    padding: 20px 0;
+}
+
+#call-to-action .cta-title {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#call-to-action .cta-text {
+    color: white;
+}
+
+#call-to-action .cta-btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 25px;
+    transition: background 0.5s;
+    margin: 10px;
+    border: 2px solid var(--accentColor);
+    color: white;
+}
+
+#call-to-action .cta-btn:hover {
+    background: var(--accentColor);
+    border: 2px solid var(--accentColor);
+}
