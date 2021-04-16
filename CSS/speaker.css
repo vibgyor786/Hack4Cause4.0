@@ -1,0 +1,76 @@
+
+/*SPEAKER*/
+.speakerCard {
+    padding: 20px;
+    width: fit-content;
+}
+.speakerCard .speakerImg {
+    width: 40%;
+    border-radius: 20px;
+}
+.speakerCards {
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.speakerHead {
+    color: var(--accentColor);
+    margin-top: 2%;
+    font-family: "Merienda", cursive;
+}
+
+.speakerDesc {
+    color: var(--white);
+    margin-top: 2%;
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+}
+
+/*!SPEAKER*/
+.profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 80px;
+}
+.profile {
+    flex-basis: 260px;
+}
+
+.profile .profile-img {
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.profile:hover .profile-img {
+    filter: grayscale(0);
+}
+
+.user-name {
+    margin-top: 30px;
+    font-size: 35px;
+}
+.profile h3 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #ddd;
+}
+.profile h5 {
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #ccc;
+}
+.profile p {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+    color: #aaa;
+}

@@ -1,0 +1,37 @@
+
+/* FAQ Section */
+
+h5 > .FAQHead {
+    color: #02f9e9;
+    font-size: 1rem;
+}
+
+.btn-link:hover {
+    text-decoration: none !important;
+    color: var(--accentColor);
+}
+
+.btn-link:active {
+    text-decoration: none !important;
+}
+
+.btn-link {
+    text-decoration: none !important;
+}
+
+.btn-wrap-text {
+    overflow: hidden;
+    white-space: normal;
+    display: inline-block;
+    text-overflow: ellipsis;
+}
+.card {
+    background-color: #292727;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 1.25rem;
+}
+div.card-body {
+    color: #02f9e9;
+    font-size: 0.9rem;
+}

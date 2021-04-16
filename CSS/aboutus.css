@@ -1,0 +1,114 @@
+
+/* ABOUT US  */
+
+.aboutUsDesc {
+    color: var(--white);
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+/* new about us  */
+.grid-item-inner p {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    font-weight: 200;
+    text-align: justify;
+}
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: 31.33% 31.33% 31.33%;
+    grid-gap: 3%;
+    grid-row-gap: 6%;
+    align-items: center;
+    justify-content: center;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateX(30deg);
+}
+.grid-item {
+    min-height: 320px;
+    box-shadow: inset 5px 5px 5px rgba(17, 17, 17, 0.116),
+        inset -5px -5px 15px rgba(255, 255, 255, 0.2), inset 5px 5px 15px rgba(0, 0, 0, 0.3),
+        inset -5px -5px 15px rgba(255, 255, 255, 0.2);
+    border-radius: 18px;
+    display: flex;
+    position: relative;
+}
+
+.grid-item-inner {
+    margin: 10px;
+    padding: 2em 4%;
+    text-align: center;
+    background: #30374246;
+    color: #fff;
+    border-radius: 18px;
+    transition: 0.4s linear;
+}
+
+.grid-item:hover {
+    box-shadow: inset -0px -20px 20px #ec1f5662;
+}
+
+.grid-item:hover .grid-item-inner {
+    /* background: #303742bd; */
+    background-color: #232323;
+    box-shadow: none;
+    transform: translateY(-15px);
+}
+.more-link {
+    margin-top: 1rem;
+    padding: 0.6rem 1.8rem;
+    background-color: #ec1f57;
+   
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+
+    /* padding: 5px 10px;
+    margin-top: 20px; */
+    display: inline-block;
+    /* font-weight: 500; */
+    /* box-shadow: inset 5px 5px 5px rgba(243, 73, 73, 0.2),
+        inset -5px -5px 15px rgba(245, 54, 54, 0.1), inset 5px 5px 15px rgba(32, 38, 48, 0.3),
+        inset -5px -5px 15px rgba(236, 75, 75, 0.1); */
+}
+.grid-item:nth-child(1):after {
+    /* content: "01"; */
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    font-size: 100px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.2);
+}
+.grid-item:nth-child(2):after {
+    content: "02";
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    font-size: 100px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.2);
+}
+.grid-item:nth-child(3):after {
+    content: "03";
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    font-size: 100px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+
+/* new about us ends  */

@@ -1,0 +1,166 @@
+
+/* Footer */
+.container-fluid {
+    overflow: hidden;
+    margin-top: 100px;
+    background: #262626;
+    color: #627482 !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.list-unstyled li a {
+    color: #989c9e;
+    text-emphasis: none !important;
+}
+
+footer p {
+    color: #989c9e;
+}
+.list-unstyled li a:hover {
+    color: #0275d8;
+}
+
+small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important;
+}
+
+.bold-text {
+    color: #989c9e !important;
+}
+
+.mt-55 {
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important;
+}
+
+/* h3 {
+  font-size: calc(
+    34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+} */
+
+.social {
+    font-size: 21px !important;
+}
+
+.rights {
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important;
+}
+
+.social a {
+    color: inherit;
+}
+
+.social a:hover {
+    color: #0275d8;
+}
+
+/* Media Queries */
+@media (max-width: 1020px) {
+    .sectionHeader {
+        font-size: 2.2em;
+        margin: 1em 40px 8px 40px !important;
+    }
+
+    .sectionSubheader {
+        font-size: 1.2em;
+        margin: 20px 20px;
+    }
+    .domainCards {
+        flex-direction: column;
+    }
+
+    .trackCards {
+        flex-direction: column;
+        margin-left: 12%;
+        justify-content: space-around;
+    }
+
+    .trackCard {
+        width: 80% !important;
+        margin: auto;
+    }
+
+    .FAQHead {
+        color: var(--black);
+        font-size: 0.8em;
+        text-overflow: ellipsis;
+    }
+
+    .aboutUsDesc {
+        width: 80%;
+    }
+
+    .perkCards {
+        /* margin: 10%; */
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .perkCard {
+        margin: 4%;
+        width: 80%;
+    }
+
+    .perkCard i {
+        font-size: 1.8em;
+    }
+
+    .perkDesc {
+        font-size: 1.4em !important;
+    }
+
+    .sponsors {
+        width: 70%;
+        height: auto;
+        margin-left: 15%;
+    }
+
+    .speakerCards {
+        flex-direction: column;
+    }
+
+    .navbar-nav a {
+        color: var(--accentColor) !important;
+        margin: 0 4% !important;
+        padding: 10px 40px !important;
+        border-radius: 0px;
+        font-weight: bold;
+        background-color: black;
+    }
+
+    .H4CText {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .H4CBox {
+        display: none;
+    }
+
+    .map {
+        display: none;
+    }
+
+    .footerLogo {
+        width: 140%;
+        align-self: center;
+    }
+
+    .timer {
+        width: 80%;
+        align-self: center;
+        justify-content: center;
+        margin: auto;
+        padding: 20px 10px;
+        font-size: 1em;
+        margin-top: 6%;
+    }
+
+    .number {
+        background-color: inherit;
+        padding: 0px 0px;
+        border-radius: 0px;
+    }
+}

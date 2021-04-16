@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Stylish&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Titillium+Web:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --accentColor: #ff0748;
+    /* --black: #000000f1; */
+    --black: #1c1c1a;
+    --white: #ffffff;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+body {
+    background-color: var(--black);
+    font-family: "Poppins", sans-serif;
+}
+
+
